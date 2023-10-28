@@ -1,0 +1,118 @@
+
+
+# ACTIVITY 1 ================
+
+x = 0
+a = 5
+b = 5
+
+if a > 0:
+    if b < 0:
+        x = x + 5
+    elif a > 5:
+        x = x + 4
+    else:
+        x = x + 3
+else:
+    x = x + 2
+    
+print(x)
+
+
+# ACTIVITY 2 ================
+
+NUM1 = 50
+NUM2 = 500
+
+print("I") if NUM1 > NUM2 else print("LOVE") if NUM1 == NUM2 else print("PYTHON")
+
+
+# ACTIVITY 3 ================
+
+x = 0
+a = 5
+b = -5
+
+if a > 0:
+    if b < 0:
+        x = x + 5
+    elif a > 5:
+        x = x + 4
+    else:
+        x = x + 3
+else:
+    x = x + 2
+    
+print(x)
+
+
+# ACTIVITY 4 ================
+
+fName = input("First name : ") # First name : Laurie
+lName = input("Last name : ") # Last name : Blair
+annual_salary = int(input("Salary : ")) # Salary : 65000
+rating = int(input("Rating : ")) # Rating : 3
+
+rate1 = 1
+rate2 = 2
+rate3 = 3
+rate4 = 4
+
+print("=====================")
+
+if rating == rate1:
+    bonus = (10 / 100) * annual_salary
+    print("Name:", fName + " " + lName,"\n""Salary:", annual_salary,"\n""Rating:", rating,"\n""Bonus:", bonus)
+else:
+    if rating == rate2:
+        bonus = (6 / 100) * annual_salary
+        print("Name:", fName + " " + lName,"\n""Salary:", annual_salary,"\n""Rating:", rating,"\n""Bonus:", bonus)
+    else:
+        if rating == rate3:
+            bonus = (3 / 100) * annual_salary
+            print("Name:", fName + " " + lName,"\n""Salary:", annual_salary,"\n""Rating:", rating,"\n""Bonus:", bonus)
+        else:
+            if rating == rate4:
+                print("Name:", fName + " " + lName,"\n""Salary:", annual_salary,"\n""Rating:", rating,"\n""Bonus: No Bonus")
+
+
+# ACTIVITY 5 ================
+
+x = 5
+y = 5
+z = 3
+a = 3
+
+if x == y and z == a:
+    print("Python")
+
+
+# ACTIVITY 6 ================
+
+x = 5
+y = 5
+z = 3
+a = 3
+
+if x == y or z == a:
+    print("Python")
+
+
+# ACTIVITY 7 ================
+
+if 1 == 1: print("One is equal to one!")
+
+
+# ACTIVITY 8 ================
+
+print("Yes") if 1 == 1 else print("No")
+
+
+# ACTIVITY 9 ================
+
+if 1 == 1:
+    print("One is equal to one!")
+
+
+
+
