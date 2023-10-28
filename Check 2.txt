@@ -39,32 +39,3 @@ print(studName)
 print(float(average))
 
 
-
-
-=====================
-
-
-
-ACTIVITY 1
-Enter Name: Jhazmine Clzye Troyo
-Enter Age: 18
-Jhazmine Clzye Troyo 18
-ACTIVITY 2
-Enter First Name: Jhazmine Clyze
-Enter Last Name: Troyo
-Enter gender: Female
-Enter Phone Number: 09473556430
-Enter Location: Cebu City
-Jhazmine Clyze Troyo Female 09473556430 Cebu City
-ACTIVITY 3
-num1: 4
-num2: 6
-4 + 6 = 10
-ACTIVITY 4
-Enter Student Name: Jhazmine Clyze Troyo
-math grade: 82
-Science grade: 96.5
-English grade: 78
-PE grade:99
-Jhazmine Clyze Troyo
-88.875
