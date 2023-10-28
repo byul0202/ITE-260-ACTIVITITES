@@ -1,6 +1,8 @@
 # W3D1
 
-# # ACTIVITY 1
+[TROYO, JHAZMINE CLYZE.txt](https://github.com/byul0202/W3D1/files/13194907/TROYO.JHAZMINE.CLYZE.txt)
+
+# ACTIVITY 1
 name = input("Enter Name: Nina")
 age = int(input("Enter Age: 34"))
 
@@ -24,4 +26,4 @@ cars.pop(2)
 
 print(cars)
 
-[TROYO, JHAZMINE CLYZE.txt](https://github.com/byul0202/W3D1/files/13194907/TROYO.JHAZMINE.CLYZE.txt)
+
