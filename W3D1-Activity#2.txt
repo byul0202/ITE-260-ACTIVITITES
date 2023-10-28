@@ -1,0 +1,44 @@
+# ACTIVITY 1
+
+number = int(input("Enter a number: "))
+
+if (number >= 1):
+    print ("POSITIVE")
+    
+else:
+    print ("NEGATIVE")
+
+
+# ACTIVITY 2
+
+name = input("Enter Name: ")
+sub1 = float(input("Enter sub1 grade: "))
+sub2 = float(input("Enter sub2 grade: "))
+sub3 = float(input("Enter sub3 grade: "))
+sub4 = float(input("Enter sub4 grade: "))
+sub5 = float(input("Enter sub5 grade: "))
+
+average = (sub1 + sub2 + sub3 + sub4 + sub5) / 5
+
+if (average > 85):
+    print(name, "average: ", average, "With High Honor")
+elif average > 80:
+    print(name, "average: ", average, "With Honor")
+elif average > 75:
+    print(name, "average: ", average, "Pass")
+else:
+    print(name, "average: ", average, "Fail")
+
+
+# ACTIVITY 3
+
+username = "jhazmine"
+password = "troyo"
+
+usenam = input("Enter Username: ")
+pazz = input("Enter Password: ")
+
+if usenam == username and pazz == password:  
+    print("login")
+else:
+    print("Try again")
