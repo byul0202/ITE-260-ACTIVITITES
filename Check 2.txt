@@ -1,0 +1,70 @@
+print("ACTIVITY 1")
+name = input("Enter Name: ")
+age = input ("Enter Age: ")
+
+print(name + " " + str(age)) 
+
+
+print("ACTIVITY 2")
+fname = input("Enter First Name: ")
+lname =input("Enter Last Name: ")
+gender = input(" Enter gender: ")
+phoneNumber = input ("Enter Phone Number: ")
+location = input ("Enter Location: ")
+
+fullName = (fname + " " + lname)
+
+print(fullName + " " + gender + " " + str(phoneNumber) + " " + location)
+
+
+print("ACTIVITY 3")
+a = int(input("num1: "))
+b = int(input("num2: "))
+
+c = a + b
+print (str(a) , "+" , str(b) , "=" , c)
+
+
+print("ACTIVITY 4")
+studName = input("Enter Student Name: ")
+math = input("math grade: ")
+science = input("Science grade: ")
+english = input("English grade: ")
+pe = input("PE grade:" )
+
+sum = (float(math) + float(science) + float(english) + float(pe)) 
+average = (sum / 4)
+
+print(studName)
+print(float(average))
+
+
+
+
+=====================
+
+
+
+ACTIVITY 1
+Enter Name: Jhazmine Clzye Troyo
+Enter Age: 18
+Jhazmine Clzye Troyo 18
+ACTIVITY 2
+Enter First Name: Jhazmine Clyze
+Enter Last Name: Troyo
+Enter gender: Female
+Enter Phone Number: 09473556430
+Enter Location: Cebu City
+Jhazmine Clyze Troyo Female 09473556430 Cebu City
+ACTIVITY 3
+num1: 4
+num2: 6
+4 + 6 = 10
+ACTIVITY 4
+Enter Student Name: Jhazmine Clyze Troyo
+math grade: 82
+Science grade: 96.5
+English grade: 78
+PE grade:99
+Jhazmine Clyze Troyo
+88.875

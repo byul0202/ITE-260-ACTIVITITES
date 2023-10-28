@@ -1,0 +1,37 @@
+# ACTIVITY 1 - Car Brands
+
+car_brands = ["Ford", "Honda", "Audi", "Nissan", "BMW"]
+car_brands.append("Chevrolet")
+car_brands.append("Volkswagen")
+car_brands.append("Ferrari")
+
+print(car_brands)
+
+
+
+# ACTIVITY 2 - Motor Brands
+
+motor_brands = ["Honda", "Yamaha", "BMW", "Suzuki", "Ducati"]
+motor_brands.insert(3,"KTM")
+del motor_brands[5]
+
+print(motor_brands)
+
+
+
+# ACTIVITY 3 - Fruit Types
+
+fruit_types = ["Grapes", "Watermelon", "Cherry", "Orange", "Berry"]
+fruit_types [1] = "apple"
+
+print(fruit_types)
+
+
+
+# ACTIVITY 4 - Animals
+
+animals = ["dog", "cat", "bird", "rat", "bear"]
+animals.remove("rat")
+
+print(animals)
+
