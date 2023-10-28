@@ -1,1 +1,27 @@
 # W3D1
+
+# # ACTIVITY 1
+name = input("Enter Name: Nina")
+age = int(input("Enter Age: 34"))
+
+print ("Please share the information asked for:\n" + "Name: " + name + "  " + "Age: "+ str(age) )
+print()
+
+# ACTIVITY 2
+num1 = 46
+num2 = 76
+
+sum = num1 + num2 
+
+print (num1 , "+" , num2 , "=" , sum)
+print()
+
+# ACTIVITY 3
+cars = ["toyota", "mazda", "lambo", "suzuki", "tesla"]
+
+cars.append("BMW")
+cars.pop(2)
+
+print(cars)
+
+[TROYO, JHAZMINE CLYZE.txt](https://github.com/byul0202/W3D1/files/13194907/TROYO.JHAZMINE.CLYZE.txt)
