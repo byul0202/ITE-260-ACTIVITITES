@@ -1,0 +1,103 @@
+NUMBER 1:
+
+i = 10
+
+while i >= 1:
+    print(i)
+    i = i - 1
+
+OUTPUT:
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+
+==================================================
+NUMBER 2:
+
+print("Enter 5 number: ")
+sum = 0
+a = 1
+
+while (a<=5):
+    inum=int(input(""))
+    sum+=inum
+    a+=1
+print("SUM:", sum)
+
+OUTPUT:
+Enter 5 number: 
+5
+5
+5
+5
+5
+SUM: 25
+
+==================================================
+NUMBER 3:
+num = int(input("Enter a number: "))
+count = 1
+
+while count <= num:
+    print (count)
+    count+=1
+
+OUTPUT:
+Enter a number: 10
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+
+==================================================
+NUMBER 4:
+msg = input("Enter a message: ")
+count = int(input("Enter a number: "))
+i = 1
+
+while i <= count:
+    print('count' , i)
+    print (msg)
+    i = i+1
+
+OUTPUT:
+Enter a message: fssf
+Enter a number: 5
+fssf
+fssf
+fssf
+fssf
+fssf
+
+==================================================
+NUMBER 5:
+
+secword = "hello"
+attemps = 3
+
+while attemps > 0:
+    entersecword = str(input("Enter Secret Word: "))
+    if secword != entersecword:
+        print("Try Again ")
+        attemps -= 1
+    else:
+        print("Congratulations! You guessed it right!")
+        break
+
+OUTPUT: 
+Enter Secret Word: hello
+Congratulations! You guessed it right!
+
